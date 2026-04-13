@@ -154,7 +154,21 @@ export const Projects = () => {
 
               {/* Content */}
               <div className="p-6 space-y-4">
-                <div className="flex items-start justify-between">
+                <div
+                  className="flex items-start justify-between cursor-pointer"
+                  onClick={() => {
+                    const url =
+                      project.link && project.link !== "#"
+                        ? project.link
+                        : project.github && project.github !== "#"
+                          ? project.github
+                          : null;
+
+                    if (url) {
+                      window.open(url, "_blank", "noopener,noreferrer");
+                    }
+                  }}
+                >
                   <h3 className="text-xl font-semibold group-hover:text-primary transition-colors">
                     {project.title}
                   </h3>
