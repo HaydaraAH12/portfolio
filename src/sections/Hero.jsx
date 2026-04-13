@@ -67,7 +67,10 @@ export const Hero = () => {
 
   const pathImag = isLight ? "/lightProfile.jpeg" : "/myprofile.png";
   return (
-    <section id="hero" className="relative min-h-screen flex items-center overflow-hidden">
+    <section
+      id="hero"
+      className="relative min-h-screen flex items-center overflow-hidden"
+    >
       {/* Bg */}
       <div className="absolute inset-0">
         <img
@@ -143,12 +146,15 @@ export const Hero = () => {
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
-                { icon: Github, href: "#" },
+                { icon: Github, href: "https://github.com/HaydaraAH12" },
                 {
                   icon: Linkedin,
                   href: "https://www.linkedin.com/in/haydara-ahmad-434a54256/",
                 },
-                { icon: Instagram, href: "#" },
+                {
+                  icon: Instagram,
+                  href: "https://www.instagram.com/haydaraghassan?igsh=MnByZXJ3d3MyZWti",
+                },
               ].map((social, idx) => (
                 <a
                   key={idx}
@@ -172,12 +178,22 @@ export const Hero = () => {
               to-primary/10 blur-2xl animate-pulse"
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
-                {console.log("pppppp", pathImag)}
-                <img
-                  src={pathImag || ""}
-                  alt="Pedro Machado"
-                  className="w-full aspect-[4/5] object-cover rounded-2xl"
-                />
+                <div className="relative group w-fit cursor-pointer">
+                  <img
+                    src={pathImag || ""}
+                    alt="Pedro Machado"
+                    className="w-full aspect-[4/5] object-cover rounded-2xl"
+                  />
+
+                  <span
+                    className="absolute bottom-3 left-1/2 -translate-x-1/2
+               scale-0 group-hover:scale-100
+               transition-transform duration-200
+               bg-black/80 text-white text-xs px-3 py-1 rounded-lg"
+                  >
+                    Haydara Ahmad
+                  </span>
+                </div>
 
                 {/* Floating Badge */}
                 <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">

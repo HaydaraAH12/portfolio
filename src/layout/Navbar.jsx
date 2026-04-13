@@ -59,12 +59,23 @@ export const Navbar = () => {
       } z-50`}
     >
       <nav className="container mx-auto px-6 flex items-center justify-between">
-        <a
-          href="#"
-          className="text-xl font-bold tracking-tight hover:text-primary"
-        >
-          HA<span className="text-primary">.</span>
-        </a>
+        <div className="relative group w-fit">
+          <a
+            href="#"
+            className="text-xl font-bold tracking-tight hover:text-primary"
+          >
+            HA<span className="text-primary">.</span>
+          </a>
+
+          <span
+            className="absolute -bottom-8 left-1/2 -translate-x-1/2 
+                   scale-0 group-hover:scale-100 
+                   transition-transform duration-200
+                   bg-black text-white text-xs px-2 py-1 rounded"
+          >
+            Haydara Ahmad
+          </span>
+        </div>
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-4">
