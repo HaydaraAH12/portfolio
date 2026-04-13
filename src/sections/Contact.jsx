@@ -16,12 +16,14 @@ const contactInfo = [
     label: "Email",
     value: "haydaraah12@gmail.com",
     href: "mailto:haydaraah12@gmail.com",
+    title: "Send me a message",
   },
   {
     icon: Phone,
-    label: "Phone",
+    label: "WhatsApp",
     value: "+971523096554",
-    href: "tel:+971523096554",
+    href: "https://wa.me/971523096554",
+    title: "Message me on WhatsApp now",
   },
   {
     icon: MapPin,
@@ -228,6 +230,8 @@ export const Contact = () => {
                     key={i}
                     href={item.href}
                     className="flex items-center gap-4 p-4 rounded-xl hover:bg-surface transition-colors group"
+                    target="_blank"
+                    title={item.title}
                   >
                     <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                       <item.icon className="w-5 h-5 text-primary" />
