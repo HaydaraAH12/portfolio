@@ -73,7 +73,7 @@ export const Navbar = () => {
                    transition-transform duration-200
                    bg-black text-white text-xs px-2 py-1 rounded"
           >
-            Haydara Ahmad
+            Haydara Ghassan Ahmad
           </span>
         </div>
 

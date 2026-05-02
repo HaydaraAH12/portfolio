@@ -18,7 +18,7 @@ const footerLinks = [
   { href: "#about", label: "About" },
   { href: "#projects", label: "Projects" },
   { href: "#experience", label: "Experience" },
-  { href: "#contact", label: "Contact" },
+  { href: "#contactMe", label: "Contact" },
 ];
 
 export const Footer = () => {
@@ -34,7 +34,7 @@ export const Footer = () => {
               HA<span className="text-primary">.</span>
             </a>
             <p className="text-sm text-muted-foreground mt-2">
-              © {currentYear} Haydara Ahmad. All rights reserved.
+              © {currentYear} Haydara Ghassan Ahmad. All rights reserved.
             </p>
           </div>
 

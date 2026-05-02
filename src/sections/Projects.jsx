@@ -2,29 +2,30 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Sharjah Judicial Digital Platform",
+    title: "Sharjah Judicial Department Portal",
     description:
-      "An official government digital platform for the Sharjah Judicial Department, unifying court, prosecution, and legal services into a fully integrated online system. The platform enables citizens, residents, and legal professionals to access judicial services, submit applications, and track cases efficiently through a secure digital environment.",
+      "Government-grade, Arabic-first platform on Next.js supporting complex BPMN workflows, dynamic Form.io forms, and full RTL for public case management—unifying judicial services in a secure digital environment (sjd.ae).",
     image: "/projects/sjd.png",
     tags: [
       "Government",
-      "Digital Transformation",
-      "Judicial Services",
       "UAE",
       "Next.js",
+      "Form.io",
+      "BPMN",
+      "RTL",
       "Bootstrap",
-      "Performance Optimization",
-      "Material-Ui",
+      "Material UI",
       "Redux",
-      "zod",
+      "Zod",
+      "Performance",
     ],
     link: "https://sjd.ae",
     // github: "#",
   },
   {
-    title: "UAE Council for Fatwa – Official Portal",
+    title: "Fatwa UAE Portal",
     description:
-      "The official digital portal of the UAE Council for Fatwa, providing authenticated religious guidance and advisory services to the public. The platform offers access to fatwas, scholarly resources, and consultation services through a secure and user-friendly government interface.",
+      "Bilingual public portal (Arabic/English) for religious inquiries and authenticated guidance. Includes multilingual routing, RTL/LTR toggling, and mobile-first responsive design (fatwauae.gov.ae).",
     image: "/projects/fatwa.png",
     tags: [
       "Government",

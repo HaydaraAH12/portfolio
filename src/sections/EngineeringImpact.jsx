@@ -17,7 +17,7 @@ const impactMetrics = [
   },
   {
     icon: ShieldCheck,
-    value: "30%",
+    value: "20–30%",
     title: "Fewer Integration Bugs",
     description:
       "Reduced frontend-backend integration issues by aligning API contracts, applying defensive programming, and improving state management.",

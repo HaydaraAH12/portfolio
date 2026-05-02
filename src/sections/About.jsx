@@ -49,34 +49,29 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                Front-End Developer with 4+ years of hands-on experience
-                building scalable, maintainable, and high-performance web
-                applications using React.js, Next.js, and modern JavaScript. I
-                focus on crafting modular UI architectures that balance
-                performance, accessibility, and internationalization, with
-                strong experience in bilingual (Arabic/English)
-                applications—particularly within business and governmental
-                domains. Beyond UI implementation, I specialize in understanding
-                application business logic and translating complex requirements
-                into clear, intuitive, and API-driven user experiences. I’ve
-                worked extensively on dynamic form engines, workflow-based
-                systems, and complex state management using Redux and Context
-                API, always with a focus on clarity, reliability, and
-                scalability.
+                Senior front-end developer with 5+ years delivering scalable
+                React and Next.js applications for government and enterprise
+                clients in the UAE. I specialize in bilingual (Arabic/English)
+                platforms, dynamic Form.io form engines, and workflow-driven
+                UIs—with a track record of pushing Lighthouse scores from the
+                70–80 range to 90+, cutting integration bugs by 20–30%, and
+                speeding delivery through reusable component libraries. I am
+                also expanding into AI-powered product work, integrating LLMs
+                to build intelligent, adaptive interfaces.
               </p>
               <p>
-                I collaborate closely with backend teams and have practical
-                experience integrating frontend systems with NestJS and Spring
-                Boot APIs, along with using Python for data processing,
-                automation, and supportive services. I’m also comfortable with
-                Git-based workflows, CI/CD pipelines, and deploying frontend
-                applications across platforms such as Vercel, Netlify, and
-                Firebase.
+                Core strengths include frontend architecture, SSR/ISR and App
+                Router patterns, RTL/i18n (including next-intl), WCAG-minded
+                implementation, and close collaboration with NestJS and Spring
+                Boot teams on REST and WebSocket contracts. I hold a Bachelor’s
+                in Mechatronics Engineering from Al Manara University (2022),
+                which shapes how I approach complex workflows and data-driven UI.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+                Languages: Arabic (native), English (professional proficiency).
+                Outside of delivery work, I keep exploring new tooling, design
+                systems, and ways to make large-scale apps faster and clearer for
+                users and teams.
               </p>
             </div>
 

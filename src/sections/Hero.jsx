@@ -11,38 +11,37 @@ import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 import { useEffect, useState } from "react";
 
 const skills = [
+  "JavaScript (ES6+)",
+  "TypeScript",
+  "Python",
   "React",
   "Next.js",
-  "TypeScript",
-  "Redux",
-  "Zutsand",
-  "Zod",
   "Node.js",
-  "GraphQL",
-  "PostgreSQL",
-  "MongoDB",
-  "Redis",
-  "Docker",
-  "AWS",
-  "Vercel",
-  "Tailwind CSS",
-  "Prisma",
-  "Jest",
-  "Cypress",
-  "Figma",
-  "Git",
-  "GitHub Actions",
-  "Vite",
-  "Material Ui",
-  "ShadCn",
-  "Bootstrap",
+  "Redux",
+  "Zustand",
+  "Zod",
   "Form.io",
-  "Camunda",
-  "NestJs",
-  "SQL",
-  "MySql",
-  "Python",
-  "JAVA",
+  "next-intl",
+  "Tailwind CSS",
+  "Material UI",
+  "shadcn/ui",
+  "Bootstrap",
+  "REST APIs",
+  "WebSocket",
+  "tRPC",
+  "NestJS",
+  "Spring Boot",
+  "PostgreSQL",
+  "MySQL",
+  "Docker",
+  "Git",
+  "CI/CD",
+  "OpenAI API",
+  "Anthropic Claude",
+  "Figma",
+  "Postman",
+  "WCAG",
+  "BPMN",
 ];
 
 export const Hero = () => {
@@ -107,7 +106,7 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Software Engineer • React Specialist
+                Senior Front-End Developer • React, Next.js, TypeScript
               </span>
             </div>
 
@@ -123,9 +122,11 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Haydara Ahmad — a software engineer specializing in
-                React, Next.js, and TypeScript. I build scalable, performant web
-                applications that users love.
+                Hi, I'm Haydara Ghassan Ahmad — a senior front-end developer with
+                5+ years of experience building scalable React and Next.js apps
+                for government and enterprise clients in the UAE. I focus on
+                bilingual platforms, Form.io workflows, performance, and
+                AI-powered features with LLM integration.
               </p>
             </div>
 
@@ -168,7 +169,7 @@ export const Hero = () => {
             </div>
           </div>
           {/* Right Column - Profile Image */}
-          <div className="relatice animate-fade-in animation-delay-300">
+          <div className="relative animate-fade-in animation-delay-300">
             {/* Profile Image */}
             <div className="relative max-w-md mx-auto">
               <div
@@ -181,7 +182,7 @@ export const Hero = () => {
                 <div className="relative group w-fit cursor-pointer">
                   <img
                     src={pathImag || ""}
-                    alt="Pedro Machado"
+                    alt="Haydara Ghassan Ahmad"
                     className="w-full aspect-[4/5] object-cover rounded-2xl"
                   />
 
@@ -191,7 +192,7 @@ export const Hero = () => {
                transition-transform duration-200
                bg-black/80 text-white text-xs px-3 py-1 rounded-lg"
                   >
-                    Haydara Ahmad
+                    Haydara Ghassan Ahmad
                   </span>
                 </div>
 
@@ -206,7 +207,7 @@ export const Hero = () => {
                 </div>
                 {/* Stats Badge */}
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                  <div className="text-2xl font-bold text-primary">4+</div>
+                  <div className="text-2xl font-bold text-primary">5+</div>
                   <div className="text-xs text-muted-foreground">
                     Years Exp.
                   </div>

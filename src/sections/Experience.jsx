@@ -1,25 +1,27 @@
 const experiences = [
   {
     period: "Jan 2023 — Present",
-    role: "Front-End Engineer (React & Next.js)",
+    role: "Front-End Developer (React & Next.js)",
     company: "Infostrategic (Virtual Trust) — Abu Dhabi",
     description:
-      "Building scalable government and enterprise-grade applications using React and Next.js. Specialized in bilingual (Arabic/English) workflow-driven platforms with advanced dynamic form engines using Form.io. Improved performance scores to 90+ Lighthouse and reduced integration bugs by up to 30% through strong API contract alignment and defensive programming.",
+      "Built and maintained scalable React and Next.js apps for UAE government and enterprise clients, improving load performance by up to 35% via SSR/ISR and code splitting. Led full bilingual (Arabic/English) coverage with correct RTL/LTR across complex approvals. Shipped sjd.ae and fatwauae.gov.ae; adopted Form.io LCP patterns (~40% less repetitive UI code); customized advanced Form.io components for approvals and backend-driven config. Raised Lighthouse from 70–80 to 90+ on multiple pages; cut frontend integration bugs by 20–30% with defensive programming and tight API alignment with NestJS/Spring Boot. Contributed to AI-powered features via LLM APIs. Translated Figma to responsive, accessible (WCAG) UIs; participated in full Agile cadence.",
     technologies: [
       "React",
-      "Next.js (SSR/ISR)",
+      "Next.js (App Router, SSR, ISR)",
       "TypeScript",
       "Form.io",
       "Redux",
-      "Zutsand",
-      "zod",
+      "Zustand",
+      "Zod",
+      "next-intl",
       "NestJS",
       "Spring Boot",
       "PostgreSQL",
+      "MySQL",
       "Docker",
       "Tailwind",
       "CI/CD",
-      "MySql",
+      "OpenAI / Anthropic APIs",
     ],
     current: true,
   },
@@ -28,7 +30,7 @@ const experiences = [
     role: "Freelance Front-End Developer",
     company: "Remote",
     description:
-      "Delivered custom React and Next.js applications for small businesses and individual clients. Built responsive landing pages, dashboards, and integrated REST APIs. Managed full project lifecycle from requirement analysis to deployment with strong focus on performance, SEO, and cross-browser compatibility.",
+      "Delivered custom React and Next.js apps end-to-end—from requirements to deployment—for small businesses and individuals. Built responsive landing pages and dashboards, integrated REST APIs and third-party services, and applied cross-browser, performance, and SEO best practices.",
     technologies: [
       "React",
       "Next.js",
@@ -76,8 +78,9 @@ export const Experience = () => {
             className="text-muted-foreground
            animate-fade-in animation-delay-200"
           >
-            A timeline of my professional growth, from curious beginner to
-            senior engineer leading teams and building products at scale.
+            A timeline of professional growth building government-grade and
+            client-facing products, with measurable impact on performance and
+            delivery.
           </p>
         </div>
 

@@ -10,12 +10,12 @@ import { useDynamicTitle } from "@/hooks/useDynamicTitle";
 
 function App() {
   useDynamicTitle([
-    { id: "hero", title: "Haydara Ahmad | Frontend Engineer" },
-    { id: "about", title: "About | Haydara Ahmad" },
-    { id: "projects", title: "Projects | Haydara Ahmad" },
-    { id: "experience", title: "Experience | Haydara Ahmad" },
-    { id: "impact", title: "Engineering Impact | Haydara Ahmad" },
-    { id: "contactMe", title: "Contact | Haydara Ahmad" },
+    { id: "hero", title: "Haydara Ghassan Ahmad | Senior Front-End Developer" },
+    { id: "about", title: "About | Haydara Ghassan Ahmad" },
+    { id: "projects", title: "Projects | Haydara Ghassan Ahmad" },
+    { id: "experience", title: "Experience | Haydara Ghassan Ahmad" },
+    { id: "impact", title: "Engineering Impact | Haydara Ghassan Ahmad" },
+    { id: "contactMe", title: "Contact | Haydara Ghassan Ahmad" },
   ]);
 
   return (
