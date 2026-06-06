@@ -3,26 +3,27 @@ import { Code2, Lightbulb, Rocket, Users } from "lucide-react";
 const highlights = [
   {
     icon: Code2,
-    title: "Clean Code",
+    title: "Clean Architecture",
     description:
-      "Writing maintainable, scalable code that stands the test of time.",
+      "Building systems that are honest about their complexity and designed to last.",
   },
   {
     icon: Rocket,
-    title: "Performance",
+    title: "Full-Stack Delivery",
     description:
-      "Optimizing for speed and delivering lightning-fast user experiences.",
+      "API design, database modeling, third-party integrations, and cloud deployments.",
   },
   {
     icon: Users,
-    title: "Collaboration",
-    description: "Working closely with teams to bring ideas to life.",
+    title: "API-Driven UX",
+    description:
+      "Translating complex business workflows into intuitive user experiences.",
   },
   {
     icon: Lightbulb,
-    title: "Innovation",
+    title: "Defensive Programming",
     description:
-      "Staying ahead with the latest technologies and best practices.",
+      "Not just shipping features — building reliable, maintainable systems.",
   },
 ];
 
@@ -49,37 +50,39 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                Senior front-end developer with 5+ years delivering scalable
-                React and Next.js applications for government and enterprise
-                clients in the UAE. I specialize in bilingual (Arabic/English)
-                platforms, dynamic Form.io form engines, and workflow-driven
-                UIs—with a track record of pushing Lighthouse scores from the
-                70–80 range to 90+, cutting integration bugs by 20–30%, and
-                speeding delivery through reusable component libraries. I am
-                also expanding into AI-powered product work, integrating LLMs
-                to build intelligent, adaptive interfaces.
+                Software Engineer with 5+ years of experience building scalable,
+                high-performance web applications using React, Next.js,
+                TypeScript, and modern web technologies. My background is rooted
+                in frontend engineering, where I've designed modular, accessible,
+                and internationalized applications for business and government
+                domains.
               </p>
               <p>
-                Core strengths include frontend architecture, SSR/ISR and App
-                Router patterns, RTL/i18n (including next-intl), WCAG-minded
-                implementation, and close collaboration with NestJS and Spring
-                Boot teams on REST and WebSocket contracts. I hold a Bachelor’s
-                in Mechatronics Engineering from Al Manara University (2022),
-                which shapes how I approach complex workflows and data-driven UI.
+                Beyond UI development, I specialize in translating complex
+                business workflows into intuitive, API-driven user experiences
+                — working extensively on dynamic form engines, workflow-based
+                systems, and state management using Redux and Context API.
               </p>
               <p>
-                Languages: Arabic (native), English (professional proficiency).
-                Outside of delivery work, I keep exploring new tooling, design
-                systems, and ways to make large-scale apps faster and clearer for
-                users and teams.
+                Over time, I've grown into full-stack development: building
+                backend services and REST APIs with NestJS, designing relational
+                databases with PostgreSQL and MySQL, implementing authentication
+                systems, real-time features with WebSockets and Socket.IO, and
+                email workflows via SMTP integrations.
+              </p>
+              <p>
+                I'm comfortable across the full delivery lifecycle — API design,
+                database modeling, third-party integrations, CI/CD pipelines, and
+                cloud deployments on Vercel, Netlify, and Firebase. I've also
+                used Python for automation and backend support.
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to create digital experiences that are not just
-                functional, but truly delightful — products that users love to
-                use and developers love to maintain."
+                "I care deeply about clean architecture and defensive programming
+                — not just shipping features, but building systems that are
+                honest about their complexity and designed to last."
               </p>
             </div>
           </div>

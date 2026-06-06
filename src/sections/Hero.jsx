@@ -11,31 +11,35 @@ import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 import { useEffect, useState } from "react";
 
 const skills = [
-  "JavaScript (ES6+)",
-  "TypeScript",
-  "Python",
   "React",
   "Next.js",
+  "TypeScript",
+  "NestJS",
   "Node.js",
+  "PostgreSQL",
+  "MySQL",
+  "REST APIs",
+  "WebSockets",
+  "Socket.IO",
   "Redux",
-  "Zustand",
-  "Zod",
-  "Form.io",
-  "next-intl",
+  "Context API",
+  "Python",
+  "CI/CD",
+  "Docker",
+  "Vercel",
+  "Netlify",
+  "Firebase",
+  "JavaScript (ES6+)",
   "Tailwind CSS",
   "Material UI",
   "shadcn/ui",
-  "Bootstrap",
-  "REST APIs",
-  "WebSocket",
-  "tRPC",
-  "NestJS",
+  "Form.io",
+  "next-intl",
+  "Zustand",
+  "Zod",
   "Spring Boot",
-  "PostgreSQL",
-  "MySQL",
-  "Docker",
+  "tRPC",
   "Git",
-  "CI/CD",
   "OpenAI API",
   "Anthropic Claude",
   "Figma",
@@ -106,7 +110,7 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Senior Front-End Developer • React, Next.js, TypeScript
+                Software Engineer • Full-Stack Developer • Next.js, React, NestJS
               </span>
             </div>
 
@@ -122,11 +126,12 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Haydara Ghassan Ahmad — a senior front-end developer with
-                5+ years of experience building scalable React and Next.js apps
-                for government and enterprise clients in the UAE. I focus on
-                bilingual platforms, Form.io workflows, performance, and
-                AI-powered features with LLM integration.
+                Hi, I'm Haydara Ghassan Ahmad — a Software Engineer with 5+
+                years of experience building scalable, high-performance web
+                applications using React, Next.js, TypeScript, and modern web
+                technologies. I design modular, accessible systems for business
+                and government domains — from API-driven UIs to NestJS backends,
+                PostgreSQL, and CI/CD delivery.
               </p>
             </div>
 

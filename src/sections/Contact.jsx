@@ -28,7 +28,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Location",
-    value: "Uae, Abu Dhabi",
+    value: "Uae, Dubai,Abu Dhabi",
     href: "#",
   },
 ];
