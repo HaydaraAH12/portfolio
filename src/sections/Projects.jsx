@@ -44,6 +44,26 @@ const projects = [
     // github: "#",
   },
   {
+    title: "Correspondence Platform",
+    description:
+      "Real-time correspondence and messaging application with NestJS REST APIs, Prisma on PostgreSQL, JWT authentication, and Socket.IO/WebSocket for live updates. Features RTL-first UI with shadcn/ui and Tailwind, Zustand state management, and SMTP-powered email notifications for workflow-driven communication.",
+    image: "/projects/correspondence.png",
+    tags: [
+      "NestJS",
+      "Prisma",
+      "PostgreSQL",
+      "WebSocket",
+      "Socket.IO",
+      "JWT",
+      "SMTP",
+      "shadcn/ui",
+      "Tailwind CSS",
+      "RTL",
+      "Zustand",
+    ],
+    github: "https://github.com/HaydaraAH12/fullstack-messaging-system",
+  },
+  {
     title: "Project Management Tool",
     description:
       "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
